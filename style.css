@@ -1,0 +1,207 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body,html{
+    height:100%;
+    width:100%;
+}
+body{
+    background-color:rgb(38 33 33 / 6%);
+}
+#main{
+position: relative;
+}
+
+#header{
+   width:100%;
+   height:68px;
+   background-color:white;
+   float: left;
+   display: flex;
+   align-items: center;
+   position: relative;
+   position: fixed;
+   z-index: 2;
+
+}
+
+#logo{
+    width: 155px;
+    height: 62px;
+    background-color: white;
+    padding-top: 6px;
+
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchbar{
+    width:715px;
+    height:40px;
+    background-color:white;
+    position: absolute;
+    left: 192px;
+    border:2px solid black;
+    border-radius: 10px;
+    display: flex;
+    float: left;
+    
+}
+#icon{
+    height: 37px;
+    width: 43px;
+    background-color:white;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    
+    
+}
+.fa-magnifying-glass{
+    
+    padding: 8px;
+    font-size: 26px;
+
+}
+
+#login{
+    height:40px;
+    width:111px;
+    background-color: white;
+    display: flex;
+   position: absolute;
+    align-items: center;
+    margin-left:952px;
+    border-radius: 10px;
+    gap: 2px;
+}
+
+#seller{
+    height:40px;
+    width:189px;
+    background-color: white;
+    display: flex;
+   gap: 9px;
+    align-items: center;
+    position: absolute;
+    margin-left:1264px;
+    border-radius: 10px;
+    
+}
+
+#cart{
+    height:40px;
+    width:120px;
+    background-color: white;
+    display: flex;
+
+   position: absolute;
+    align-items: center;
+    margin-left:1107px;
+    border-radius: 10px;
+    gap: 2px;
+}
+
+#box4{
+    height:40px;
+    width:40px;
+    background-color: white;
+    display: flex;
+   position: absolute;
+    align-items: center;
+    margin-left:1475px;
+    border-radius: 10px;
+    
+}
+
+.port{
+    padding-top: 13px;
+    height: 156.4px;
+    width: 1520px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    top: 84px;
+    display: flex;
+    gap: 32px;
+    }
+         .imag{
+            background-color: white;
+    border-radius: 10px;
+    height: 135.4px;
+    width: 138px;
+    padding-left: 30px;
+    float: left;
+           
+         }
+         .fa-chevron-down{
+       
+    font-size: 20px;
+         }
+
+         .fa-user{
+            font-size: 20px;
+         }
+         .fa-cart-shopping{
+            font-size: 20px;
+         }
+
+         .fa-gift{
+            font-size: 20px;
+         }
+
+         .fa-ellipsis-vertical{
+            font-size: 20px;
+            margin-left: 36%;
+         }
+         
+         #advertise1{
+            position: absolute;
+            top: 261px;
+            width: 100%;
+            height: 200px;
+            
+         }
+
+         #advertise2{
+            position: absolute;
+            top: 482px;
+            width:1520px;
+            height: 248px;
+            background-color:white;
+         }
+
+         .but1{
+            top: 39%;
+            height: 26%;
+            width: 44px;
+            background-color: rgba(255, 255, 255, 0.849);
+            position: absolute;
+            left: 2px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+         }
+
+         .but2{
+            top: 39%;
+            height: 26%;
+            width: 44px;
+            background-color: rgba(255, 255, 255, 0.849);
+            position: absolute;
+            right: 2px;
+            border-top-left-radius: 11px;
+            border-bottom-left-radius: 11px;
+         }
+
+         #electro{
+            height: 300px;
+            width: 1530px;
+            position: absolute;
+            top: 400px;
+            background-color: rgb(230, 16, 16);
+         }
+
+   
