@@ -10,8 +10,13 @@ log1.addEventListener("mouseover",()=>{
     log3.style.color=" white";
     log4.style.color=" white";
     log5.style.color=" white";
-     log4.style.transition="all 0.5s ease-in-out"
-    log4.style.transform=" rotate(180deg)";
+    gsap.to(".fa-chevron-down",{
+        rotate:180,
+        duration:0.3,
+        repeat:0,
+        
+        
+    })
     
 })
 
@@ -21,9 +26,15 @@ log1.addEventListener("mouseout",()=>{
     log2.style. background=" white";
     log3.style.color=" black";
     log5.style.color=" black";
-    log4.style.color=" black";
-    log4.style.transition="all 1s ease-in-out"
-    log4.style.transform=" rotate(0deg)";
+    
+    gsap.to(".fa-chevron-down",{
+        rotate:0,
+        duration:0.3,
+        background:
+
+        
+    })
+    
 
     
 })

@@ -93,16 +93,17 @@ position: relative;
 }
 
 #cart{
-    height:40px;
-    width:55px;
-    background-color: white;
-    display: flex;
-
+    
+   height: 40px;
+   width: 55px;
+   background-color: white;
+   display: flex;
    position: absolute;
-    align-items: center;
-    margin-left:1107px;
-    border-radius: 10px;
-    gap: 2px;
+   align-items: center;
+   margin-left: 998px;
+   border-radius: 10px;
+   gap: 5px;
+
 }
 
 #box4{
