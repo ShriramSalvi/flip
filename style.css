@@ -14,9 +14,9 @@ position: relative;
 }
 
 #header{
-   width:100%;
+   width:1380px;
    height:68px;
-   background-color:white;
+   background-color: white;
    float: left;
    display: flex;
    align-items: center;
@@ -40,7 +40,7 @@ position: relative;
 }
 
 #searchbar{
-    width:715px;
+    width:584px;
     height:40px;
     background-color:white;
     position: absolute;
@@ -74,7 +74,7 @@ position: relative;
     display: flex;
    position: absolute;
     align-items: center;
-    margin-left:952px;
+    margin-left:841px;
     border-radius: 10px;
     gap: 2px;
 }
@@ -87,14 +87,14 @@ position: relative;
    gap: 9px;
     align-items: center;
     position: absolute;
-    margin-left:1264px;
+    margin-left:1163px;
     border-radius: 10px;
     
 }
 
 #cart{
     height:40px;
-    width:120px;
+    width:55px;
     background-color: white;
     display: flex;
 
@@ -120,7 +120,7 @@ position: relative;
 .port{
     padding-top: 13px;
     height: 156.4px;
-    width: 1520px;
+    width: 1380px;
     border-radius: 15px;
     background-color: white;
     position: absolute;
@@ -161,7 +161,7 @@ position: relative;
          #advertise1{
             position: absolute;
             top: 261px;
-            width: 100%;
+            width:  1380px;
             height: 200px;
             
          }
@@ -169,7 +169,7 @@ position: relative;
          #advertise2{
             position: absolute;
             top: 482px;
-            width:1520px;
+            width:1380px;
             height: 248px;
             background-color:white;
          }
@@ -191,17 +191,67 @@ position: relative;
             width: 44px;
             background-color: rgba(255, 255, 255, 0.849);
             position: absolute;
-            right: 2px;
+            right: 0px;
             border-top-left-radius: 11px;
             border-bottom-left-radius: 11px;
          }
 
          #electro{
             height: 300px;
-            width: 1530px;
+            width: 1137px;
             position: absolute;
-            top: 400px;
-            background-color: rgb(230, 16, 16);
+            display: flex;
+      
+           
+            top: 740px;
+            background-color:whitesmoke;
          }
 
-   
+         #elctrobox{
+            height: 300px;
+            width: 236px;
+            position: absolute;
+            top: 740px;
+            right: 0px;
+            background-color: white;
+         }
+
+         .eleboxes{
+
+            height: 241px;
+            width: 200px;
+            position: relative;
+            margin-left: 24px;
+            top: 57px;
+            display: flex;
+            justify-content: space-evenly;
+            
+           
+            background-color: white;
+
+         }
+
+         .img{
+            height: 186px;
+            width: 186px;
+            overflow: hidden;
+            position: absolute;
+            top: 8px;
+         }
+         
+         .imgh1{
+            position: absolute;
+            top: 198px;
+            font-style: oblique;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         }
+      
+
+         .imgh2{
+            font-weight: 600;
+            position: absolute;
+            top: 216px;
+            font-style: oblique;
+            font-family: math;
+         }
+  
